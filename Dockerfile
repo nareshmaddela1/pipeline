@@ -12,7 +12,7 @@ RUN npm install
 # If you are building your code for production
 RUN npm ci 
 #--only=production
-
+//446017a1cf3753d7fc0e8eeab3717ea4218e19f8
 # Bundle app source
 COPY . .
 
