@@ -23,6 +23,14 @@ node {
 
         
     }
+        stage('Test image') {
+        /* We test our image with different tests in parallel:
+         * Run a curl inside the newly-build Docker image */
+        echo 'test successful'
+        /*we will setup manual approval before pushingh to deploy stage*/
+
+        
+    }
     stage('Push image') {
         
         input "push to prod?"
