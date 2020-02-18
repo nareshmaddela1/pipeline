@@ -10,9 +10,7 @@ node {
 
     stage('Build image') {
         
-        /* This builds the actual image*/
-
-        app = build("nareshmaddela117/pipeline2")
+       echo 'buiding the application'
     }
 
     stage('Test image') {
